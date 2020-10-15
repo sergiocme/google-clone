@@ -75,3 +75,47 @@
   top: 0;
   right: 0;
 }
+
+/* Main */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 56px 8px 0;
+}
+
+.content__logo {
+  height: 56px;
+}
+
+.content__search {
+  width: 100%;
+  padding: 7px 10px 6px 20px;
+  margin-top: 18px;
+  border: 1px solid #DADCE0;
+  border-radius: 25px;
+  outline: 0;
+
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.74);
+  background: transparent;
+}
+
+.content__search:focus {
+  border: 1px solid #FEB729;
+}
+
+.content__offer {
+  padding: 6px 12px;
+  margin-top: 24px;
+
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.content__offer a {
+  text-decoration: none;
+  color: #058FD0;
+}
