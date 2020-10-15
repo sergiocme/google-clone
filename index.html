@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Google UI Clone</title>
+  <link rel="stylesheet" href="style.css" title="Base stylesheet" />
 </head>
 <body>
-  <h1>Google UI Clone</h1>
+  <header class="menu">
+    <div class="menu__section left">
+      <img class="menu__icon" src="assets/burger-icon.svg" alt="Settings" />
+      <a href="" class="menu__link">All</a>
+      <a href="" class="menu__link">Images</a>
+    </div>
+
+    <div class="menu__section right">
+      <img class="menu__icon" src="assets/more-icon.svg" alt="Apps" />
+      <div class="menu__profile">
+        <img
+          class="menu__avatar"
+          src="https://github.com/sergiocme.png"
+          alt="User's Avatar"
+          width="40"
+          height="40"
+        />
+
+        <img class="menu__avatar--frame" src="assets/circle-frame.svg" alt="" />
+      </div>
+    </div>
+  </header>
 </body>
 </html>
