@@ -38,3 +38,12 @@
   text-transform: uppercase;
   color: #757575;
 }
+
+.menu__link.active {
+  border-bottom: 2px solid #4285F4;
+  color: #4285F4;
+}
+
+.menu__link:not(.active) {
+  margin-bottom: 2px;
+}
