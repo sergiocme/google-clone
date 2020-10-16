@@ -5,8 +5,9 @@
 Screenshots:
 
 <div>
-  <img height="720px" src="https://github.com/sergiocme/google-clone/blob/master/mobile.png" />
-  <img height="720px" src="https://github.com/sergiocme/google-clone/blob/master/desktop.png" />
+  <img height="552px" src="https://github.com/sergiocme/google-clone/blob/main/mobile.png" />
+  <object height="500" width="20"></object>
+  <img height="460px" src="https://github.com/sergiocme/google-clone/blob/main/desktop.png" />
 </div>
 
 ---
