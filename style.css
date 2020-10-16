@@ -196,3 +196,20 @@ body {
     height: 128px;
   }
 }
+
+/* Desktop */
+
+@media (min-width: 780px) {
+  .content__section.search {
+    height: 48px;
+    max-width: 780px;
+  }
+
+  .content__search {
+    height: 100%;
+  }
+
+  .content__search--icon {
+    top: 36px;
+  }
+}
