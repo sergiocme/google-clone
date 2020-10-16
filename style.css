@@ -100,9 +100,19 @@ body {
   height: 56px;
 }
 
+.content__section.search {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+  width: 100%;
+  padding: 8px 0 0 0;
+}
+
 .content__search {
   width: 100%;
-  padding: 7px 10px 6px 20px;
+  height: 32px;
+  padding: 4px 32px 4px 24px;
   margin-top: 18px;
   border: 1px solid #DADCE0;
   border-radius: 25px;
@@ -115,6 +125,15 @@ body {
 
 .content__search:focus {
   border: 1px solid #FEB729;
+}
+
+.content__search--icon {
+  position: absolute;
+  top: 32px;
+  right: 12px;
+
+  height: 20px;
+  width: 20px;
 }
 
 .content__offer {
