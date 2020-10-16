@@ -136,6 +136,10 @@ body {
   width: 20px;
 }
 
+.content__search-buttons {
+  display: none;
+}
+
 .content__offer {
   padding: 6px 12px;
   margin-top: 24px;
@@ -211,5 +215,28 @@ body {
 
   .content__search--icon {
     top: 36px;
+  }
+
+  .content__search-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin: 64px 0;
+  }
+
+  .content__search-buttons button {
+    height: 38px;
+    width: 164px;
+
+    border: 1px solid #E4E4E4;
+    font-size: 16px;
+    color: #4C4D48;
+  }
+
+  .content__search-buttons--search {
+    margin-right: 24px;
   }
 }
