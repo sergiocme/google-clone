@@ -230,8 +230,9 @@ body {
   .content__search-buttons button {
     height: 38px;
     width: 164px;
-
     border: 1px solid #E4E4E4;
+    border-radius: 2px;
+
     font-size: 16px;
     color: #4C4D48;
   }
